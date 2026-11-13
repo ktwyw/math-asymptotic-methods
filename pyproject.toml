@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asymp"
+version = "0.1.0"
+description = "Small, readable tools for checking asymptotic approximations; companion module to the math-asymptotic-methods notebooks."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Yanwei Wang", email = "yanwei.wang@nu.edu.kz" }]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.22", "scipy>=1.8", "matplotlib>=3.5", "mpmath>=1.2", "sympy>=1.10"]
+
+[project.urls]
+Homepage = "https://ktwyw.github.io/math-asymptotic-methods/"
+Repository = "https://github.com/ktwyw/math-asymptotic-methods"
+
+[project.optional-dependencies]
+notebooks = ["jupyterlab", "nbconvert", "ipykernel"]
+test = ["pytest"]
+
+[tool.setuptools]
+packages = ["asymp"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

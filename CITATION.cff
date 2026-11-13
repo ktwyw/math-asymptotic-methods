@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite it as below."
+type: software
+title: "Asymptotic methods: expansions, integrals and sums, checked against numerics"
+version: 0.1.0
+date-released: 2026-11-13
+authors:
+  - family-names: Wang
+    given-names: Yanwei
+    orcid: "https://orcid.org/0000-0002-8488-9833"
+    email: yanwei.wang@nu.edu.kz
+    affiliation: "Department of Chemical and Materials Engineering, School of Engineering, Nazarbayev University, Astana, Kazakhstan"
+repository-code: "https://github.com/ktwyw/math-asymptotic-methods"
+url: "https://ktwyw.github.io/math-asymptotic-methods/"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - asymptotic analysis
+  - asymptotic expansions
+  - Laplace's method
+  - steepest descent
+  - stationary phase
+  - Euler-Maclaurin formula
+  - divergent series
+  - education
+abstract: >-
+  An open book of executed Jupyter notebooks, with a small Python module, on
+  asymptotic methods for scientists and engineers: asymptotic expansions and
+  divergent series, and the asymptotic evaluation of integrals and sums
+  (Watson's lemma, Laplace's method, stationary phase, steepest descent,
+  Euler-Maclaurin), with worked examples from chemical physics and heat
+  transfer. Every expansion is checked against high-precision numerics.

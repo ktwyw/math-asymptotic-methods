@@ -1,0 +1,44 @@
+# Jupyter Book 2 (mystmd) configuration
+version: 1
+project:
+  title: "Asymptotic methods: expansions, integrals and sums"
+  description: Asymptotic expansions of integrals and sums, each checked against high-precision numerics, with executed notebooks.
+  keywords: [asymptotic analysis, asymptotic expansions, Laplace's method, stationary phase, steepest descent, Euler-Maclaurin, divergent series]
+  authors:
+    - name: Yanwei Wang
+      orcid: 0000-0002-8488-9833
+      affiliations:
+        - School of Engineering, Nazarbayev University
+  github: https://github.com/ktwyw/math-asymptotic-methods
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  exclude:
+    - README.md
+    - DATA_LICENSE.md
+    - CHANGELOG.md
+    - _build/**
+  toc:
+    - file: docs/intro.md
+    - title: "Part I. Foundations"
+      children:
+        - file: notebooks/part1_foundations/01_what_is_an_asymptotic_expansion.ipynb
+        - file: notebooks/part1_foundations/02_scaling_and_small_parameters.ipynb
+        - file: notebooks/part1_foundations/03_order_symbols_and_gauge_functions.ipynb
+        - file: notebooks/part1_foundations/04_divergent_series_in_practice.ipynb
+    - title: "Part II. Integrals and sums"
+      children:
+        - file: notebooks/part2_integrals_and_sums/05_integration_by_parts_and_watsons_lemma.ipynb
+        - file: notebooks/part2_integrals_and_sums/06_laplaces_method.ipynb
+        - file: notebooks/part2_integrals_and_sums/07_stationary_phase.ipynb
+        - file: notebooks/part2_integrals_and_sums/08_steepest_descent.ipynb
+        - file: notebooks/part2_integrals_and_sums/09_sums_euler_maclaurin_and_stirling.ipynb
+    - title: "Part III. Worked examples"
+      children:
+        - file: notebooks/part3_examples/10_kramers_escape_rate.ipynb
+        - file: notebooks/part3_examples/11_transient_heat_conduction.ipynb
+    - file: docs/references.md
+site:
+  template: book-theme
+  options:
+    logo_text: Asymptotic methods
