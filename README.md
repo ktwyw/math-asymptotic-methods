@@ -56,11 +56,11 @@ including **2 worked examples** from chemical physics and heat transfer, a small
 <img src="docs/images/overview.png" width="820" alt="Four results from the book: optimal truncation of the Euler series, error slopes of Laplace's method, the Airy function and its saddle-point forms, and Kramers' escape time">
 </p>
 
-*Four checks, recomputed by `scripts/make_readme_figure.py`. (a) The Euler series: the error falls,
+Four checks, recomputed by `scripts/make_readme_figure.py`. (a) The Euler series: the error falls,
 reaches a minimum near $N = 1/x$, and grows (Chapter 1). (b) Laplace's method for $n!$: the error falls
 like $1/n$, and like $1/n^2$ with the first correction (Chapter 6). (c) The Airy function and its
 saddle-point forms, with one saddle for $x > 0$ and two for $x < 0$ (Chapter 8). (d) Kramers' formula
-against the exact mean escape time and a Brownian simulation (Chapter 10).*
+against the exact mean escape time and a Brownian simulation (Chapter 10).
 
 Measured carefully, the familiar approximations hold some surprises:
 
